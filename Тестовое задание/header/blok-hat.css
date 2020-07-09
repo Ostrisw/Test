@@ -1,0 +1,243 @@
+
+.menu-icon {
+  cursor: pointer;
+  width: 57px;
+  margin-top: -4px;
+}
+.m-bar1, .m-bar2, .m-bar3 {
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin: 3px ;
+  transition: 0.4s;
+}
+.hat_bloks
+{
+    height: 50px;
+}
+.hat_logo_btn
+{
+	height: 40px;
+	display: inline-block;
+    width: 15%;
+    margin-left: 4.7%;
+    color: rgb(0, 202, 252);
+    font-size: 250%;
+    text-shadow: 1px 1px 1px rgb(33, 248, 255);
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.hat_logo_btn2
+{
+	height: 40px;
+	display: inline-block;
+    width: 15%;
+    margin-left: 4.7%;
+    color: rgb(0, 202, 252);
+    font-size: 250%;
+    text-shadow: 1px 1px 1px rgb(33, 248, 255);
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.hat_logo_btn3
+{
+	height: 40px;
+	display: inline-block;
+    width: 15%;
+    margin-left: 4.7%;
+    color: rgb(0, 202, 252);
+    font-size: 250%;
+    text-shadow: 1px 1px 1px rgb(33, 248, 255);
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.phone
+{
+	height: 40px;
+	display: inline-block;
+    width: 15%;
+    margin-left: 20%;
+    position: relative;
+    top: 10px;
+    margin-right: -40px;
+}
+.phone_color
+{
+color: black;
+}
+.logo-phone{
+  position: absolute;
+  margin-left: -40px;
+}
+.logo-hr{
+  position: absolute;
+  margin-left: -10px;
+}
+.header{
+    max-width: 960px;
+    margin: 0 auto;
+    height: 50px;
+background: url(logo.png) no-repeat;
+background-size: 190px;
+background-position-x: 0%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {text-decoration: none;}
+  .top-menu {
+    background: white;
+    position: relative;
+  }
+  .top-menu:after, 
+  .submenu:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .top-menu > li {
+    display: inline-block;
+    float: left;
+  }
+  .top-menu > li > a {
+    display: block;
+    padding: 18px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    transition: .2s linear;
+    background-color: #3a4750;
+    height: 15px;
+    
+  }
+  .top-menu > li > a:hover {color: #B03062;}
+  .dropdown:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-left: 4px;
+    vertical-align: top;
+  }
+  .submenu, 
+  .submenu-standart {
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.07);
+    background: white;
+    padding: 25px 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0,30px,0);
+    transition: .5s ease-out;
+    transform-origin: 0% 0%;
+  }
+  .submenu {width: 100%;}
+  .submenu-standart {
+    min-width: 200px;
+    padding: 10px 0;
+  }
+  .dropdown-standart {position: relative;}
+  .top-menu > li:hover .submenu, 
+  .top-menu > li:hover .submenu-standart {
+    opacity: 1;
+    visibility: visible;
+    transform: translate3d(0,0,0);
+  }
+
+  .submenu-standart li {padding: 0 18px;}
+  .submenu > li:last-child {border-right: none;}
+  .submenu img {
+    display: block;
+    width: 100%;
+  }
+  .submenu li a, 
+  .submenu-standart li a {
+    display: block;
+    padding: 5px 0;
+    color: #666;
+    font-size: 13px;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .content {
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  .cont {
+    background-color: #3a4750;
+  }
+
+  .sicret-logo{
+    display: none;
+  }
+  /*Адаптирование под мобилку*/ 
+
+  @media(max-width:768px) {
+    .top-menu li {
+      width: 100%;
+      height: auto!important;
+    }
+    .top-menu > li {border-bottom: 1px solid #e5e5e5;}
+    .top-menu > li > a {padding: 18px}
+    .submenu,
+    .submenu-standart {
+      position: relative;
+      display: none;
+      box-shadow: none;
+      padding: 0;
+      background: rgba(0,0,0,.02);
+    }
+    .submenu-standart {padding: 10px 0;}
+    .submenu > li {
+      border-right: none;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 18px;
+    }
+    .submenu h3 {margin: 0 0 10px}
+    .submenu .image-header {margin: 10px 0}
+    .submenu li:last-of-type {border-bottom: none}
+    .top-menu > li:hover .submenu,
+    .top-menu > li:hover .submenu-standart {display: block;}
+  }
+
+  
+@media screen and (max-width: 320px) 
+{
+.phone {display: none;}
+.header{margin-left: 20px;height: 160px;margin-right: 20px;margin-top: 20px;}
+.hat_logo_btn{display: none;}
+/*Меню скрыты*/
+.cont{ display: none;}
+/*Слайдер*/
+.slideshow-container-max-width{ display: none;}
+
+/*Карточки скрыты*/
+.container__cards{ display: none;}
+
+.hat_bloks{ height: 160px;}
+.hat_logo_btn{display: none;}
+.hat_logo_btn2{display: block;}
+.hat_logo_btn3{display: block;}
+.container{visibility: hidden;}
+.sicret-logo{
+  display: unset;
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 23px;
+}
+
+
+}

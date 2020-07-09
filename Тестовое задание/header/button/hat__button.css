@@ -1,0 +1,50 @@
+    .hat_btn {
+    color: #fff; 
+    background: #5d8ea8;
+    padding: 0px; 
+    border: 2px solid #5d8ea8;
+    border-radius: 3px;
+height: 40px;
+width: 160px;
+margin-left: 33%;
+    } 
+    .hat_btn2 {
+      color: #fff; 
+      background: #5d8ea8;
+      padding: 0px; 
+      border: 2px solid #5d8ea8;
+      border-radius: 3px;
+  height: 40px;
+  width: 160px;
+  margin-left: 33%;
+      } 
+    .hat_btn a:hover {color: #24e7a6;}
+  .dropdown:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-left: 4px;
+    vertical-align: top;
+  }
+  .hat_btn2 a:hover {color: #24e7a6;}
+  .dropdown:after {
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-left: 4px;
+    vertical-align: top;
+  }
+    
+  @media screen and (max-width: 320px) 
+{
+  .hat_btn{
+    width: 280px;
+    margin-left: -12px;
+    margin-top: 60px;
+    font-size: 16px;
+  }
+  .hat_btn2{
+    width: 280px;
+    margin-left: -12px;
+    margin-top: 90px;
+    font-size: 16px;
+  }
+}

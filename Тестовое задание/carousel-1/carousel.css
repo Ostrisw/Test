@@ -1,0 +1,141 @@
+
+/* Рабочее поле */
+.slideshow-container {
+  max-width: 960px;
+  min-height: 300px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container-max-width {
+  max-width: max;
+  min-height: 300px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+  background-color: #303841;
+  margin-bottom: 60px;
+}
+.pls{
+margin-left: -41%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Кнопка следующий и предыдущий слайд */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 87%;
+  width: 10px;
+  height: 25px;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(45, 148, 189);
+  font-size: 28px;
+  transition: 0.6s ease;
+  border-radius: 30px 30px 30px 30px;
+  background-color: white;
+  padding-bottom: -10px;
+  padding-top: 0px;
+  margin-left: 2px;
+}
+
+/* Позиция правой кнопки справа */
+.next {
+  right: 90%;
+  border-radius: 30px 30px 30px 30px;
+}
+
+/* Изменение цвета при наведении на кнопки */
+.prev:hover, .next:hover {
+  background-color: rgb(45, 148, 189);
+  color: white;
+}
+
+/* Главный и маленький текст */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+  height: 34%;
+  font-size: 50px;
+}
+.text_2 {
+  color: white;
+  font-size: 17px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+  height: 24%;
+}
+/* Нумерация слайдов (1/3) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 83.5%;
+  left: 10%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Анимация темноты */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media screen and (max-width: 1910px) 
+  {
+    .pls{
+      max-width: 180%;
+      margin-left: -400px;
+    };
+  }
+  @media screen and (max-width: 1620px) {
+    .pls{
+    max-width: 150%;
+    margin-left: -200px;
+    }
+  }
+  @media screen and (max-width: 1320px) {
+    .pls{
+    max-width: 120%;
+    margin-left: -100px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .pls{
+    max-width: 100%;
+    margin-left: 0px;
+    }
+    @media screen and (max-width: 950px) {
+      .pls{
+      max-width: 100%;
+      margin-left: 0px;
+      }
+    }}

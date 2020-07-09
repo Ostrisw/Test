@@ -1,0 +1,191 @@
+.carousel-2__min-block {
+  max-width: 960px;
+  position: relative;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.carousel-2__max-block {
+  max-width: max;
+  height: 600px;
+  background-color: #e4e8eb;
+  position: relative;
+  margin: auto;
+}
+.carousel-2__next-block {
+  max-width: 960px;
+  position: relative;
+  margin: auto;
+
+}
+.carouser-2__middle-block{
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+ /* Кнопка следующая и предыдущая карточка*/
+ .prev2, .next2 {
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  width: 10px;
+  height: 25px;
+  margin-top: -70px;
+  padding: 16px;
+  color: rgb(45, 148, 189);
+  font-size: 28px;
+  transition: 0.6s ease;
+  border-radius: 30px 30px 30px 30px;
+  background-color: white;
+  padding-bottom: -10px;
+  padding-top: 0px;
+  margin-left: 2px;
+}
+
+.head-carousel2 h1{
+  font-size: 35px;
+font-weight: normal;
+}
+/* Позиция правой кнопки справа */
+.next2 {
+  right: 0%;
+  border-radius: 30px 30px 30px 30px;
+}
+
+/* Изменение цвета при наведении на кнопки */
+.prev2:hover, .next2:hover {
+  background-color: rgb(45, 148, 189);
+  color: white;
+}
+
+.top-cards2 > li{
+  display: inline-block;
+  margin-inline: 8px;
+  cursor: pointer;
+}
+.product {
+text-align: left;
+padding-left: 30px;
+padding-bottom: 1%;
+
+}
+.line2{
+    width: max;
+    height: 2px;
+    background-color: #e4e8eb;
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+.product-item2 {
+  padding-top: 20px;
+  width: 300px;
+  height: 360px;
+  text-align: center;
+  margin: 0 auto;
+  transition: .3s ease-in;
+  background-color: white;
+  border-radius: 3px 3px 3px 3px;
+}
+.blaind-l {
+  width: 300px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 20px;
+  filter: blur(15px);
+  position: absolute;
+  background-color: #e4e8eb;
+  z-index: 5;
+}
+.blaind-r {
+  width: 300px;
+  height: 500px;
+  margin-top: 50px;
+  right: 20px;
+  filter: blur(15px);
+  position: absolute;
+  background-color: #e4e8eb;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1600px) 
+{.product-item4 {visibility: hidden;}
+.product-item3 {visibility: hidden;}
+.blaind-l{visibility: hidden;}
+.blaind-r{visibility: hidden;}
+}
+
+.product-list2 h3 {
+  text-align: left;
+  padding-top: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #57859d;
+  margin-top: -30px;
+  padding-left: 30px;
+}
+.hit{
+  width: 100px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  top: 14px;
+  position: absolute;
+}
+.stock{
+  width: 60px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  text-align: center;
+  top: 45px;
+  position: absolute;
+}
+
+/* Hide the images by default */
+/*
+.myCardes {
+  display: none;
+}*/
+.active, .dot:hover {
+  background-color: #e4e8eb;
+}
+/*
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/
+
+@media screen and (max-width: 320px) 
+{
+  .product-item2{
+    width: 280px;
+  }
+  /*Стрелки второй карусели*/
+.prev2, .next2{
+  display: none;
+}
+.head-carousel2{
+  margin-left: 20px;
+}
+.product-item2{
+  width: 280px;
+}
+}
+
+
